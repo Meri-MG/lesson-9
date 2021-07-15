@@ -1,0 +1,27 @@
+@media (max-width: 1024px) {
+  .container {
+    max-width: 850px;
+  }
+  .header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header nav {
+    display: none;
+  }
+  .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer > div {
+    padding-bottom: 20px;
+  }
+  .footer > div:last-child {
+    padding-bottom: 0;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
