@@ -2,6 +2,10 @@
   --icon-size: 44px;
 }
 
+.humburger {
+  display: none;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -91,6 +95,10 @@ button {
 .form-section .inputs, .form-section label {
   color: #2E2E2E;
   margin-bottom: 7px;
+}
+
+.form-section input, .form-section textarea {
+  margin-bottom: 20px;
 }
 
 .form-section .inputs, .form-section button {

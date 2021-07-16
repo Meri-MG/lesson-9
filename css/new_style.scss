@@ -2,6 +2,9 @@
     --icon-size: 44px;
 }
 
+.humburger{
+    display: none;
+}
 
 .container {
     max-width: 1200px;
@@ -86,6 +89,10 @@ button {
         .inputs, label {
             color: #2E2E2E;
             margin-bottom: 7px;
+        }
+
+        input, textarea{
+            margin-bottom: 20px;
         }
         .inputs, button{
             margin-left: 50px;
