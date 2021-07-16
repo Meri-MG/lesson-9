@@ -1,4 +1,11 @@
-@media (max-width: 1024px) {
+@media (max-width: 1024px){
+    .header{
+        padding: 0 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
     .container {
         max-width: 850px;
     }
@@ -45,7 +52,7 @@
 
     .form-section {
         .inputs {
-            max-width: 260px;
+            max-width: 70vw;
         }
     }
 
